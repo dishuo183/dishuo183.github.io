@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+
+
+<html theme="dark" showBanner="true" hasBanner="true" > 
+<link href="https://cdn.staticfile.org/font-awesome/6.4.2/css/fontawesome.min.css" rel="stylesheet">
+<link href="https://cdn.staticfile.org/font-awesome/6.4.2/css/brands.min.css" rel="stylesheet">
+<link href="https://cdn.staticfile.org/font-awesome/6.4.2/css/solid.min.css" rel="stylesheet">
+<script src="/js/color.global.min.js" ></script>
+<script src="/js/load-settings.js" ></script>
+<head>
+  <meta charset="utf-8">
+  
+  
+  
+
+  
+  <title>DSPlayBox更新日志 | 狄硕的小站</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" href="/css/fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/css/fonts/Roboto-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+
+  <meta name="description" content="使用DSPlayBox获取Magisk&#x2F;KernelSU的教程 本工具免费提供给网友 禁止商用 倒卖死全家！！如发现任何将DSPlayBox用于商业用途的行为 包括但不限于倒卖、付费远程ROOT等！请进群【385475461】或者加作者QQ【1871549721】进行举报！    ➣ 更新日志（如有bug 请带图片并私聊作者进行反馈） 🔜【240110】更新  暂时使用IDM下载刷机包">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DSPlayBox更新日志">
+<meta property="og:url" content="https://example.com/2024/01/14/dspb-update-logs/index.html">
+<meta property="og:site_name" content="狄硕的小站">
+<meta property="og:description" content="使用DSPlayBox获取Magisk&#x2F;KernelSU的教程 本工具免费提供给网友 禁止商用 倒卖死全家！！如发现任何将DSPlayBox用于商业用途的行为 包括但不限于倒卖、付费远程ROOT等！请进群【385475461】或者加作者QQ【1871549721】进行举报！    ➣ 更新日志（如有bug 请带图片并私聊作者进行反馈） 🔜【240110】更新  暂时使用IDM下载刷机包">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://example.com/images/p5.jpg">
+<meta property="article:published_time" content="2024-01-13T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-01-14T09:24:05.071Z">
+<meta property="article:author" content="dishuo">
+<meta property="article:tag" content="DSPlayBox">
+<meta property="article:tag" content="更新日志">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://example.com/images/p5.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="狄硕的小站" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/images/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 7.0.0"></head>
+
+<body>
+  
+  
+    
+<div id="banner" class="">
+  <img src="/images/banner.jpg" itemprop="image">
+  <div id="banner-dim"></div>
+</div>
+ 
+   
+  <div id="main-grid" class="  ">
+    <div id="nav" class=""  >
+      <navbar id="navbar">
+  <nav id="title-nav">
+    <a href="/">
+      <div id="vivia-logo">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <div>狄硕的小站 </div>
+    </a>
+  </nav>
+  <nav id="main-nav">
+    
+      <a class="main-nav-link" href="/">主页</a>
+    
+      <a class="main-nav-link" href="/archives">归档数据</a>
+    
+      <a class="main-nav-link" target="_blank" rel="noopener" href="http://dishuo.top/">资源下载</a>
+    
+      <a class="main-nav-link" href="/about">关于</a>
+    
+  </nav>
+  <nav id="sub-nav">
+    <a id="theme-btn" class="nav-icon">
+      <span class="light-mode-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M438.5-829.913v-48q0-17.452 11.963-29.476 11.964-12.024 29.326-12.024 17.363 0 29.537 12.024t12.174 29.476v48q0 17.452-11.963 29.476-11.964 12.024-29.326 12.024-17.363 0-29.537-12.024T438.5-829.913Zm0 747.826v-48q0-17.452 11.963-29.476 11.964-12.024 29.326-12.024 17.363 0 29.537 12.024t12.174 29.476v48q0 17.452-11.963 29.476-11.964 12.024-29.326 12.024-17.363 0-29.537-12.024T438.5-82.087ZM877.913-438.5h-48q-17.452 0-29.476-11.963-12.024-11.964-12.024-29.326 0-17.363 12.024-29.537t29.476-12.174h48q17.452 0 29.476 11.963 12.024 11.964 12.024 29.326 0 17.363-12.024 29.537T877.913-438.5Zm-747.826 0h-48q-17.452 0-29.476-11.963-12.024-11.964-12.024-29.326 0-17.363 12.024-29.537T82.087-521.5h48q17.452 0 29.476 11.963 12.024 11.964 12.024 29.326 0 17.363-12.024 29.537T130.087-438.5Zm660.174-290.87-34.239 32q-12.913 12.674-29.565 12.174-16.653-.5-29.327-13.174-12.674-12.673-12.554-28.826.12-16.152 12.794-28.826l33-35q12.913-12.674 30.454-12.674t30.163 12.847q12.709 12.846 12.328 30.826-.38 17.98-13.054 30.653ZM262.63-203.978l-32 34q-12.913 12.674-30.454 12.674t-30.163-12.847q-12.709-12.846-12.328-30.826.38-17.98 13.054-30.653l33.239-31q12.913-12.674 29.565-12.174 16.653.5 29.327 13.174 12.674 12.673 12.554 28.826-.12 16.152-12.794 28.826Zm466.74 33.239-32-33.239q-12.674-12.913-12.174-29.565.5-16.653 13.174-29.327 12.673-12.674 28.826-13.054 16.152-.38 28.826 12.294l35 33q12.674 12.913 12.674 30.454t-12.847 30.163q-12.846 12.709-30.826 12.328-17.98-.38-30.653-13.054ZM203.978-697.37l-34-33q-12.674-12.913-13.174-29.945-.5-17.033 12.174-29.707t31.326-13.293q18.653-.62 31.326 13.054l32 34.239q11.674 12.913 11.174 29.565-.5 16.653-13.174 29.327-12.673 12.674-28.826 12.554-16.152-.12-28.826-12.794ZM480-240q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm-.247-82q65.703 0 111.475-46.272Q637-414.544 637-480.247t-45.525-111.228Q545.95-637 480.247-637t-111.475 45.525Q323-545.95 323-480.247t45.525 111.975Q414.05-322 479.753-322ZM481-481Z"/></svg></span>
+      <span class="dark-mode-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M480.239-116.413q-152.63 0-258.228-105.478Q116.413-327.37 116.413-480q0-130.935 77.739-227.435t206.304-125.043q43.022-9.631 63.87 10.869t3.478 62.805q-8.891 22.043-14.315 44.463-5.424 22.42-5.424 46.689 0 91.694 64.326 155.879 64.325 64.186 156.218 64.186 24.369 0 46.978-4.946 22.609-4.945 44.413-14.076 42.826-17.369 62.967 1.142 20.142 18.511 10.511 61.054Q807.174-280 712.63-198.206q-94.543 81.793-232.391 81.793Zm0-95q79.783 0 143.337-40.217 63.554-40.218 95.793-108.283-15.608 4.044-31.097 5.326-15.49 1.283-31.859.805-123.706-4.066-210.777-90.539-87.071-86.473-91.614-212.092-.24-16.369.923-31.978 1.164-15.609 5.446-30.978-67.826 32.478-108.282 96.152Q211.652-559.543 211.652-480q0 111.929 78.329 190.258 78.329 78.329 190.258 78.329ZM466.13-465.891Z"/></svg></span>
+    </a>
+    
+      <a id="nav-rss-link" class="nav-icon mobile-hide" href="/atom.xml" title="RSS 订阅">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M198-120q-25.846 0-44.23-18.384-18.384-18.385-18.384-44.23 0-25.846 18.384-44.23 18.384-18.385 44.23-18.385 25.846 0 44.23 18.385 18.384 18.384 18.384 44.23 0 25.845-18.384 44.23Q223.846-120 198-120Zm538.385 0q-18.846 0-32.923-13.769-14.076-13.769-15.922-33.23-8.692-100.616-51.077-188.654-42.385-88.039-109.885-155.539-67.5-67.501-155.539-109.885Q283-663.462 182.385-672.154q-19.461-1.846-33.23-16.23-13.769-14.385-13.769-33.846t14.076-32.922q14.077-13.461 32.923-12.23 120.076 8.692 226.038 58.768 105.961 50.077 185.73 129.846 79.769 79.769 129.846 185.731 50.077 105.961 58.769 226.038 1.231 18.846-12.538 32.922Q756.461-120 736.385-120Zm-252 0q-18.231 0-32.423-13.461t-18.653-33.538Q418.155-264.23 348.886-333.5q-69.27-69.27-166.501-84.423-20.077-4.462-33.538-18.961-13.461-14.5-13.461-33.346 0-19.076 13.884-33.23 13.884-14.153 33.115-10.922 136.769 15.384 234.384 112.999 97.615 97.615 112.999 234.384 3.231 19.23-10.538 33.115Q505.461-120 484.385-120Z"/></svg>
+      </a>
+    
+    <div id="nav-menu-btn" class="nav-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M177.37-252.282q-17.453 0-29.477-11.964-12.024-11.963-12.024-29.326t12.024-29.537q12.024-12.174 29.477-12.174h605.26q17.453 0 29.477 11.964 12.024 11.963 12.024 29.326t-12.024 29.537q-12.024 12.174-29.477 12.174H177.37Zm0-186.218q-17.453 0-29.477-11.963-12.024-11.964-12.024-29.326 0-17.363 12.024-29.537T177.37-521.5h605.26q17.453 0 29.477 11.963 12.024 11.964 12.024 29.326 0 17.363-12.024 29.537T782.63-438.5H177.37Zm0-186.217q-17.453 0-29.477-11.964-12.024-11.963-12.024-29.326t12.024-29.537q12.024-12.174 29.477-12.174h605.26q17.453 0 29.477 11.964 12.024 11.963 12.024 29.326t-12.024 29.537q-12.024 12.174-29.477 12.174H177.37Z"/></svg>
+    </div>
+  </nav>
+</navbar>
+<div id="nav-dropdown" class="hidden">
+  <div id="dropdown-link-list">
+    
+      <a class="nav-dropdown-link" href="/">主页</a>
+    
+      <a class="nav-dropdown-link" href="/archives">归档数据</a>
+    
+      <a class="nav-dropdown-link" target="_blank" rel="noopener" href="http://dishuo.top/">资源下载</a>
+    
+      <a class="nav-dropdown-link" href="/about">关于</a>
+    
+    
+      <a class="nav-dropdown-link" href="/atom.xml" title="RSS 订阅">RSS</a>
+     
+    </div>
+</div>
+<script>
+  let dropdownBtn = document.getElementById("nav-menu-btn");
+  let dropdownEle = document.getElementById("nav-dropdown");
+  dropdownBtn.onclick = function() {
+    dropdownEle.classList.toggle("hidden");
+  }
+</script>
+    </div>
+    <div id="sidebar-wrapper">
+      <sidebar id="sidebar">
+  
+    <div class="widget-wrap">
+  <div class="info-card">
+    <div class="avatar">
+      
+        <image src=/images/hi.jpg></image>
+      
+      <div class="img-dim"></div>
+    </div>
+    <div class="info">
+      <div class="username">狄硕 </div>
+      <div class="dot"></div>
+      <div class="subtitle">狄硕的小站 </div>
+      <div class="link-list">
+        
+          <a class="link-btn" target="_blank" rel="noopener" href="https://space.bilibili.com/32318753/" title="UID:32318753"><i class="fa-brands fa-bilibili"></i></a>
+        
+          <a class="link-btn" target="_blank" rel="noopener" href="https://qm.qq.com/q/zP6sh9CFBC" title="QQ:1871549721"><i class="fa-brands fa-qq"></i></a>
+        
+          <a class="link-btn" target="_blank" rel="noopener" href="https://github.com/dishuo183" title="GitHub@dishuo183"><i class="fa-brands fa-github"></i></a>
+         
+      </div>  
+    </div>
+  </div>
+</div>
+
+  
+  <div class="sticky">
+    
+      
+
+
+  <div class="widget-wrap">
+    <div class="widget">
+      <h3 class="widget-title">分类</h3>
+      <div class="category-box">
+            <a class="category-link" href="/categories/%E6%8A%80%E6%9C%AF/">
+                技术
+                <div class="category-count">1</div>
+            </a>
+        
+            <a class="category-link" href="/categories/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/">
+                使用指南
+                <div class="category-count">3</div>
+            </a>
+        
+            <a class="category-link" href="/categories/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/">
+                更新日志
+                <div class="category-count">1</div>
+            </a>
+        </div>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap">
+    <div class="widget">
+      <h3 class="widget-title">标签</h3>
+      <ul class="widget-tag-list" itemprop="keywords"><li class="widget-tag-list-item"><a class="widget-tag-list-link" href="/tags/DSPlayBox/" rel="tag">DSPlayBox</a></li><li class="widget-tag-list-item"><a class="widget-tag-list-link" href="/tags/KernelSU/" rel="tag">KernelSU</a></li><li class="widget-tag-list-item"><a class="widget-tag-list-link" href="/tags/Magisk/" rel="tag">Magisk</a></li><li class="widget-tag-list-item"><a class="widget-tag-list-link" href="/tags/ROOT/" rel="tag">ROOT</a></li><li class="widget-tag-list-item"><a class="widget-tag-list-link" href="/tags/TWRP/" rel="tag">TWRP</a></li><li class="widget-tag-list-item"><a class="widget-tag-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li><li class="widget-tag-list-item"><a class="widget-tag-list-link" href="/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/" rel="tag">更新日志</a></li></ul>
+    </div>
+  </div>
+
+
+    
+  </div>
+</sidebar>
+    </div>
+    <div id="content-body">
+       
+
+
+<article id="post-dspb-update-logs" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  
+    
+   
+  <div class="article-inner">
+    <div class="article-main">
+      <header class="article-header">
+        
+<div class="main-title-bar">
+  <div class="main-title-dot"></div>
+  
+    
+      <h1 class="p-name article-title" itemprop="headline name">
+        DSPlayBox更新日志
+      </h1>
+    
+  
+</div>
+
+        <div class='meta-info-bar'>
+          <div class="meta-info">
+  <time class="dt-published" datetime="2024-01-13T16:00:00.000Z" itemprop="datePublished">2024/01/14</time>
+</div>
+          <div class="need-seperator meta-info">
+            <div class="meta-cate-flex">
+  
+  <a class="meta-cate-link" href="/categories/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/">更新日志</a>
+   
+</div>
+  
+          </div>
+          <div class="wordcount need-seperator meta-info">
+            4.1k 词 
+          </div>
+        </div>
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/DSPlayBox/" rel="tag">DSPlayBox</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/" rel="tag">更新日志</a></li></ul>
+
+      </header>
+      <div class="e-content article-entry" itemprop="articleBody">
+        
+        
+          <h3 id="使用DSPlayBox获取Magisk-KernelSU的教程"><a href="#使用DSPlayBox获取Magisk-KernelSU的教程" class="headerlink" title="使用DSPlayBox获取Magisk&#x2F;KernelSU的教程"></a>使用DSPlayBox获取Magisk&#x2F;KernelSU的教程</h3><blockquote>
+<p>本工具免费提供给网友 禁止商用 倒卖死全家！！<br>如发现任何将DSPlayBox用于商业用途的行为 包括但不限于倒卖、付费远程ROOT等！<br>请进群【<a target="_blank" rel="noopener" href="https://qm.qq.com/q/KmLdq9AeYi">385475461</a>】或者加作者QQ【<a target="_blank" rel="noopener" href="https://qm.qq.com/q/zP6sh9CFBC">1871549721</a>】进行举报！</p>
+</blockquote>
+<hr>
+<p><img src="/images/p5.jpg" alt="select-and-change-color-theme"></p>
+<h3 id="➣-更新日志（如有bug-请带图片并私聊作者进行反馈）"><a href="#➣-更新日志（如有bug-请带图片并私聊作者进行反馈）" class="headerlink" title="➣ 更新日志（如有bug 请带图片并私聊作者进行反馈）"></a>➣ <font color=Red>更新日志（如有bug 请带图片并私聊作者进行反馈）</font></h3><ul>
+<li><p><strong>🔜【240110】更新</strong></p>
+<ul>
+<li><p>暂时使用IDM下载刷机包.</p>
+</li>
+<li><p>修复【下载全量包方式安装Magisk】无法使用的问题.</p>
+</li>
+<li><p>修复已知bug.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【240106】更新</strong></p>
+<ul>
+<li><p>更新解除小米下载ROM限速.</p>
+</li>
+<li><p>更新内置MiFlash.exe.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【231231】更新</strong></p>
+<ul>
+<li><p>更新部分内置exe.</p>
+</li>
+<li><p>修复打开工具提示无网络的bug.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【231223】更新</strong></p>
+<ul>
+<li><p>新增全自动【使用TWRP安装KernelSU】.（<a target="_blank" rel="noopener" href="https://flowus.cn/dishuo/share/28fea155-e427-4fa7-8dc7-b913f50ed413">适配机型</a>）</p>
+</li>
+<li><p>修复【自定义下载MIUI系统包】无法搜索线刷包的bug.</p>
+</li>
+<li><p>优化【MIUI-ROM下载器】的线刷&#x2F;卡刷的包名&#x2F;链接的识别.</p>
+</li>
+<li><p>优化【使用TWRP安装Magisk&#x2F;KernelSU】推送文件.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【231214】更新</strong></p>
+<ul>
+<li><p>完善验证文件添加识别.</p>
+</li>
+<li><p>增加Windows11自带Terminal的识别卸载.</p>
+</li>
+<li><p>修复全自动ROOT2和自动启动TWRP的识别问题.</p>
+</li>
+<li><p>修复已知bug 优化代码.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【231207】更新</strong></p>
+<ul>
+<li><p>解决小米下载刷机包限速的问题.</p>
+</li>
+<li><p>更新curl的exe程序.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【231205】更新</strong></p>
+<ul>
+<li><p>去除原小米不限速方案.（目前不限速方案已失效 自动恢复原IP）</p>
+</li>
+<li><p>新增自定义配置的【刷机包下载服务器】选择.（默认hugeota）</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【231202】更新</strong></p>
+<ul>
+<li><p>完善全自动ROOT的刷机包识别.</p>
+</li>
+<li><p>适配德尔塔面具的boot修补.</p>
+</li>
+<li><p>完善内置Magisk文件的下载.</p>
+</li>
+<li><p>增加adb设备超过1台的检测判断.</p>
+</li>
+<li><p>更改获取配置文件的方式.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【231122】更新</strong> </p>
+<ul>
+<li><p>修复全自动ROOT1下载刷机包但仍然无法提取boot的问题.</p>
+</li>
+<li><p>修复全自动ROOT2的A8-A10机型无法使用的问题.</p>
+</li>
+<li><p>修复已知bug、优化部分代码.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【231120】更新</strong> </p>
+<ul>
+<li><p>适配的小米澎湃OS的全自动ROOT1. </p>
+</li>
+<li><p>修复全自动ROOT1下载刷机包失败问题.(暂时内置IDM下载)</p>
+</li>
+<li><p>更新skkk大佬A14版本TWRP的下载.(版本v8.1t5_A14)</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【231118】更新</strong> </p>
+<ul>
+<li><p>暂时使用A13TWRP进行A14的全自动ROOT2.(修复“此时不应有 &amp; ”的问题)</p>
+</li>
+<li><p>修复已知bug、优化部分代码.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【230918】更新</strong> </p>
+<ul>
+<li><p>新增【全自动ROOT2】项的安卓8-10的机型 使用wzsx150 TWRP.</p>
+</li>
+<li><p>新增【全自动ROOT2】项适配机型的文档查看.</p>
+</li>
+<li><p>精简修补boot部分代码.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【230911】更新</strong> </p>
+<ul>
+<li>添加自动修改小米下载ROM限速问题. [<strong>非常建议更新！！]</strong></li>
+</ul>
+</li>
+<li><p><strong>🔜【230908】更新</strong></p>
+<ul>
+<li><p>修复打开显示获取版本错误的问题.</p>
+</li>
+<li><p>修改部分代码，优化实现过程.</p>
+</li>
+<li><p>修复已知bug.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【230828】更新</strong></p>
+<ul>
+<li><p>修复通过twrp安装magisk无法使用的问题.</p>
+</li>
+<li><p>新增magisk安装包云端更新下载功能.</p>
+</li>
+<li><p>更新部分内置exe.</p>
+</li>
+<li><p>修复已知bug.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【230520】更新</strong></p>
+<ul>
+<li><p>修复全自动root和手动root无法使用的问题.</p>
+</li>
+<li><p>删除上个版本无法运行的功能.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【230519】更新</strong></p>
+<ul>
+<li><p>新增Fastboot功能区【设备信息获取】功能.</p>
+</li>
+<li><p>完善【使用TWRP安装Magisk进行ROOT】安装Magisk的判断.</p>
+</li>
+<li><p>完善【线刷卡刷包】的刷入步骤，新增<del>日志记录和</del>数据清除选项.</p>
+</li>
+<li><p>更新内置magiskboot.exe</p>
+</li>
+<li><p><del>新增一键ROOT的日志记录，可在自定义配置查看.</del>（有bug 已删）</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【230503】更新</strong></p>
+<ul>
+<li><p>修复【自定义下载MIUI系统包】的无法使用的bug.</p>
+</li>
+<li><p>删除【使用TWRP安装Magisk进行ROOT】的检测recovery状态检测.</p>
+</li>
+<li><p>更新自动匹配TWRP的A12&#x2F;A13版本到v7.7 感谢skkk.</p>
+</li>
+<li><p>更新一键ROOT包内置bat脚本.</p>
+</li>
+<li><p>更新内置MIUI线刷包刷写工具到4.0.</p>
+</li>
+<li><p><del>新增一键ROOT的boot刷入失败提示.</del> （有bug 已删）</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【230413】更新</strong></p>
+<ul>
+<li><p>修复【使用TWRP安装Magisk进行ROOT】的无法ROOT的bug（大概）</p>
+</li>
+<li><p>修复通过蓝奏云下载TWRP文件名识别出错的问题.</p>
+</li>
+<li><p>优化自定义配置软链接生成逻辑方式.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【230403】更新</strong></p>
+<ul>
+<li><p>修复部分电脑【无法正常使用】的bug</p>
+</li>
+<li><p>修复无限弹【重启电脑以确保修改生效】的bug</p>
+</li>
+<li><p>新增adb功能区【设备信息获取】功能</p>
+</li>
+<li><p>新增adb功能区【查看连接设备】的adb授权提示功能</p>
+</li>
+<li><p>新增Fastboot功能区【USB3.0修复】功能</p>
+</li>
+<li><p>新增Fastboot功能区【线刷卡刷包】功能（可用于偷渡系统）</p>
+</li>
+<li><p>新增小白专区【ROOT教程】选项</p>
+</li>
+<li><p>新增全自动ROOT【ROM包名获取网站】减少出错的情况发生</p>
+</li>
+<li><p>新增全自动\手动ROOT【boot存在判定\设备连接判定\BL解锁判定】</p>
+</li>
+<li><p>新增全自动ROOT【SDK获取】确保支持的安卓版本</p>
+</li>
+<li><p>新增全自动ROOT【使用TWRP安装Magisk进行ROOT】(不再下载全量包)</p>
+</li>
+<li><p>新增一键ROOT包制作【添加Magisk安装包】</p>
+</li>
+<li><p>新增主菜单输入【tr】即可修改管理员权限拖入文件到窗口</p>
+</li>
+<li><p>新增8G2系手机的【自动twrp刷入】的识别</p>
+</li>
+<li><p>新增下载当前ROM功能的【第二方案】（双方案查询）</p>
+</li>
+<li><p>新增Magisk-alpha文件的下载</p>
+</li>
+<li><p>优化全自动ROOT的整体逻辑</p>
+</li>
+<li><p>优化修改部分工具文件路径</p>
+</li>
+<li><p>添加自定义配置文件的软连接到【TOOL\res\zdypz】</p>
+</li>
+<li><p>更新部分内置exe命令程序</p>
+</li>
+<li><p>修改工具上方【DSPB】颜色随机</p>
+</li>
+<li><p>删除部分无用功能 优化代码运行逻辑</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【220126】更新</strong></p>
+<ul>
+<li><p>新增自动识别机型并下载临时启动TWRP（TWRP专区）</p>
+</li>
+<li><p>新增Fastboot设备检测提示BL锁状态.</p>
+</li>
+<li><p>修改部分文字提示 修改部分功能.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【220120】更新</strong></p>
+<ul>
+<li><p>以后工具只需要单exe即可运行，其他文件会自动补全.</p>
+</li>
+<li><p>修复自定义下载刷机包无法下载问题.</p>
+</li>
+<li><p>修改部分文字提示 修改部分功能.</p>
+</li>
+<li><p>更换版本验证和全自动网络检测渠道，以往版本全自动可能无法使用.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【220102】更新</strong></p>
+<ul>
+<li><p>适配小米13&#x2F;Pro等出厂为Android13机型的一键ROOT.</p>
+</li>
+<li><p>新增BOOT专区的init_boot的提取刷入功能.</p>
+</li>
+<li><p>修改工具自定义配置文件位置（路径%temp%\DSPlayBox）</p>
+</li>
+<li><p>修改部分文字提示 修改部分功能.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【221215】更新</strong></p>
+<ul>
+<li><p>修复“10 was unexpected at this time”报错无法打开的问题.</p>
+</li>
+<li><p>更新内置exe 更换新的图标.</p>
+</li>
+<li><p>修复Magisk文件无法下载的问题.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【221207】更新</strong></p>
+<ul>
+<li><p>修复“全自动ROOT”无法使用的问题.</p>
+</li>
+<li><p>增加新版工具版本号提示功能.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【221206】更新</strong></p>
+<ul>
+<li><p>修复“运算符不存在”造成无法打开工具的bug.</p>
+</li>
+<li><p>更换工具图标.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>🔜【221122】更新</strong></p>
+<ul>
+<li><p>新增小白专区手动一键还原功能（可去除ROOT）</p>
+</li>
+<li><p>新增资源文件下载合集，详情看自行查看.</p>
+</li>
+<li><p>新增自定义配置，可关闭打开工具时的环境检查.</p>
+</li>
+<li><p>新增payload指定分区和全部分区的提取功能.</p>
+</li>
+<li><p>新增刷入已去除检验的三种vbmeta的选项. 位于TOOL\vbmeta</p>
+</li>
+<li><p>新增工具更新日志，注意事项，跑路名单，赞助名单的链接.</p>
+</li>
+<li><p>新增全自动root检测电脑是否联网.</p>
+</li>
+<li><p>取消自带Magisk文件，附带工具可自行下载.</p>
+</li>
+<li><p>优化工具显示界面 删除无用代码及功能.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【221105】更新</strong></p>
+<ul>
+<li><p>新增工具自定义配置选项 详细见主页【5】项.</p>
+</li>
+<li><p>自定义配置 全自动ROOT国区选项 默认国行.</p>
+</li>
+<li><p>关闭手动ROOT安卓版本的检测.</p>
+</li>
+<li><p>增加下载刷机包国区提示.</p>
+</li>
+<li><p>修改部分排版（修改MIUI-ROM相关的二级菜单）.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220911】更新</strong></p>
+<ul>
+<li><p>修复自动关闭avb2.0问题.</p>
+</li>
+<li><p>修复MIUI-ROM下载器无法使用的bug.</p>
+</li>
+<li><p>调整开启验证的顺序 解决部分打不开的问题.</p>
+</li>
+<li><p>修复已知命令语法错误的bug.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220902】【0903】更新</strong></p>
+<ul>
+<li><p>新增Aonly机型刷入自动关闭avb2.0校验.</p>
+</li>
+<li><p>增加分区剩余空间检测 小于10G增加提示.</p>
+</li>
+<li><p>更新magiskboot为最新版.</p>
+</li>
+<li><p>修复已知命令语法错误的bug.</p>
+</li>
+<li><p>完善代码 使用标准写法.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220827】更新</strong></p>
+<ul>
+<li><p>新增当前路径打开提示（第一次运行须知）</p>
+</li>
+<li><p>更换内置字库刷入工具.</p>
+</li>
+<li><p>新增ROOT检测安卓版本 增加提示.</p>
+</li>
+<li><p>设置旧版本无法打开提示.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220820】更新</strong></p>
+<ul>
+<li><p>修复一点点的bug.</p>
+</li>
+<li><p>命令指示符工具增加常用命令示例.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220815】【220819】更新</strong></p>
+<ul>
+<li><p>修复全自动ROOT个别机型找不到地址的问题.</p>
+</li>
+<li><p>修复因占用存储而无法打开的问题.</p>
+</li>
+<li><p>去除7z解压缩程序，全面使用bandizip.</p>
+</li>
+<li><p>更新内置exe程序到最新版.</p>
+</li>
+<li><p>优化代码 修复一些bug.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220807】更新</strong></p>
+<ul>
+<li><p>新增手机字库备份功能，一键备份并压缩，并自带刷入脚本.</p>
+</li>
+<li><p>新增自定义下载MIUI系统包功能，可自助查询刷机包并下载.</p>
+</li>
+<li><p>完善开启check代码结构！简明易懂.</p>
+</li>
+<li><p>更多注意事项请看工具内文字描述.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220804】更新</strong></p>
+<ul>
+<li><p>新增电脑线刷Magisk模块功能.</p>
+</li>
+<li><p>Fatboot功能区新增【MiFlash线刷】功能，可解决官方MiFlash的未知报错问题.</p>
+</li>
+<li><p>优化全自动ROOT识别系统版本.</p>
+</li>
+<li><p>新增工具不解压打开提醒！新增Windows7系统打开可能不兼容提示.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220802】更新</strong></p>
+<ul>
+<li><p>修复全自动包名识别错误的问题.</p>
+</li>
+<li><p>增加【小白专区】的注意事项说明.</p>
+</li>
+<li><p>修复一点点的bug.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220730】更新</strong></p>
+<ul>
+<li><p>更换curl配置文件，解决部分电脑无法获取包名问题.</p>
+</li>
+<li><p>删除部分无用代码，优化代号识别pro的问题.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220728】更新</strong></p>
+<ul>
+<li><p>再次完善全自动的逻辑.</p>
+</li>
+<li><p>修复一点点的bug.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220727】更新</strong></p>
+<ul>
+<li><p>适配 小米11Pro &#x2F; Ultra</p>
+</li>
+<li><p>适配 小米10 Ultra</p>
+</li>
+<li><p>适配 红米Note9Pro &#x2F; 小米10T-Lite</p>
+</li>
+<li><p>适配 小米11i &#x2F; 红米K40Pro &#x2F; 红米K40Pro+</p>
+</li>
+<li><p>再次完善全自动的逻辑 增加更多提示.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220726】更新</strong></p>
+<ul>
+<li><p>适配 红米Note11Pro &#x2F; Pro+</p>
+</li>
+<li><p>增加管理员模式打开时的系统设置，能正常打开就不要用管理员打开.</p>
+</li>
+<li><p>再次完善全自动的逻辑 增加更多提示.</p>
+</li>
+</ul>
+</li>
+<li><p>🔛<strong>【220725】更新</strong></p>
+<ul>
+<li><p>适配红米Note8 Pro的全自动root.</p>
+</li>
+<li><p>优化代码 增加提示.</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+
+        
+        
+      </div>
+
+         
+    </div>
+    
+     
+  </div>
+  
+    
+<nav id="article-nav">
+  <a class="article-nav-btn left "
+    
+      href="/2024/01/14/devices-twrp-magisk/"
+      title="使用TWRP安装Magisk适配机型"
+     >
+    <i class="fa-solid fa-angle-left"></i>
+    <p class="title-text">
+      
+        使用TWRP安装Magisk适配机型
+        
+    </p>
+  </a>
+  <a class="article-nav-btn right "
+    
+      href="/2024/01/14/verify/"
+      title="DSPB验证文件获取"
+     >
+
+    <p class="title-text">
+      
+        DSPB验证文件获取
+        
+    </p>
+    <i class="fa-solid fa-angle-right"></i>
+  </a>
+</nav>
+
+
+  
+</article>
+
+
+
+
+
+
+    </div>
+    <div id="footer-wrapper">
+      <footer id="footer">
+  
+  <div id="footer-info" class="inner">
+    
+    &copy; 2024 狄硕<br>
+    Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & Theme <a target="_blank" rel="noopener" href="https://github.com/saicaca/hexo-theme-vivia">Vivia</a>
+  </div>
+</footer>
+
+    </div>
+    <div class="back-to-top-wrapper">
+    <button id="back-to-top-btn" class="back-to-top-btn hide" onclick="topFunction()">
+        <i class="fa-solid fa-angle-up"></i>
+    </button>
+</div>
+
+<script>
+    function topFunction() {
+        window.scroll({ top: 0, behavior: 'smooth' });
+    }
+    let btn = document.getElementById('back-to-top-btn');
+    function scrollFunction() {
+        if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+            btn.classList.remove('hide')
+        } else {
+            btn.classList.add('hide')
+        }
+    }
+    window.onscroll = function() {
+        scrollFunction();
+    }
+</script>
+
+  </div>
+  <script src="/js/light-dark-switch.js"></script>
+</body>
+</html>
